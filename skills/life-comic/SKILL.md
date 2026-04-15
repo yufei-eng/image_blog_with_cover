@@ -32,7 +32,6 @@ Trigger this skill when the user:
 After delivering the comic, proactively suggest:
 1. "Would you like a **photo blog version** instead?" (invoke photo-blog skill)
 2. "Want to try a **different theme**?" and list the `suggested_themes` from the output
-3. "Need a different format? I can provide **PNG image / HTML / rich text**."
 
 ## Usage
 
@@ -78,7 +77,9 @@ By default (`--format all`), all three formats are generated every time:
 - **Rich Text**: Markdown for Copilot block (best for chat agents)
 - **PNG**: single composite image (best for sharing / social)
 
-The agent should pick the most appropriate format to display based on context, and always mention the PNG/comic image path at the end.
+The agent should pick the most appropriate format to display inline based on context. After delivering inline content, always provide download links for both PNG and HTML:
+- **PNG image** — shareable long image for mobile
+- **HTML page** — 供内测体验
 
 ### Panel Count Support
 

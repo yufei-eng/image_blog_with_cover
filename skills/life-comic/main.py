@@ -170,10 +170,13 @@ def main():
         print(f"  [{fmt.upper()}] {path}")
     if comic_image_path:
         print(f"\n  >>> COMIC IMAGE: {comic_image_path}")
+    print()
     if "png" in generated_files:
-        print(f"  >>> COMPOSITE IMAGE (shareable): {generated_files['png']}")
+        print(f"  >>> PNG image (shareable): {generated_files['png']}")
+    if "html" in generated_files:
+        print(f"  >>> HTML page (供内测体验): {generated_files['html']}")
     if "richtext" in generated_files:
-        print(f"  >>> RICH TEXT (for chat): {generated_files['richtext']}")
+        print(f"  >>> Rich text (for chat): {generated_files['richtext']}")
     print(f"{'=' * 60}")
 
 

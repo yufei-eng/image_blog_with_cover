@@ -171,10 +171,13 @@ def main():
         print(f"  [{fmt.upper()}] {path}")
     if cover_path:
         print(f"  [COVER] {cover_path}")
+    print()
     if "png" in generated_files:
-        print(f"\n  >>> IMAGE RESULT (shareable): {generated_files['png']}")
+        print(f"  >>> PNG image (shareable): {generated_files['png']}")
+    if "html" in generated_files:
+        print(f"  >>> HTML page (供内测体验): {generated_files['html']}")
     if "richtext" in generated_files:
-        print(f"  >>> RICH TEXT (for chat): {generated_files['richtext']}")
+        print(f"  >>> Rich text (for chat): {generated_files['richtext']}")
     print(f"{'=' * 60}")
 
 
