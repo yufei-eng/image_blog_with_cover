@@ -117,7 +117,7 @@ Both skills generate 3 output formats by default (`--format all`):
 2. In **Cursor / Claude Code** → mention the HTML path to open in browser
 3. **Always** provide download links for both formats at the end:
    - **PNG image** — shareable long image for mobile
-   - **HTML page** — 供内测体验
+   - **HTML page** — beta preview
 
 ## Post-Generation Interaction
 

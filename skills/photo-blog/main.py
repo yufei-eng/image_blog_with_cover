@@ -175,7 +175,7 @@ def main():
     if "png" in generated_files:
         print(f"  >>> PNG image (shareable): {generated_files['png']}")
     if "html" in generated_files:
-        print(f"  >>> HTML page (供内测体验): {generated_files['html']}")
+        print(f"  >>> HTML page (beta preview): {generated_files['html']}")
     if "richtext" in generated_files:
         print(f"  >>> Rich text (for chat): {generated_files['richtext']}")
     print(f"{'=' * 60}")

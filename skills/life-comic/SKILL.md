@@ -79,7 +79,7 @@ By default (`--format all`), all three formats are generated every time:
 
 The agent should pick the most appropriate format to display inline based on context. After delivering inline content, always provide download links for both PNG and HTML:
 - **PNG image** — shareable long image for mobile
-- **HTML page** — 供内测体验
+- **HTML page** — beta preview
 
 ### Panel Count Support
 
